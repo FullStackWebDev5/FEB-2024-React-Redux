@@ -1,7 +1,7 @@
 import { INCREMENT, DECREMENT } from "../actions/count"
 
 const initialState = {
-  count: 0
+  count: 0,
 }
 
 const reducer = (state = initialState, action) => {
